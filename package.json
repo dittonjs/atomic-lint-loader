@@ -1,6 +1,6 @@
 {
   "name": "atomic-lint-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom eslint loader for atomic-jolt",
   "main": "index.js",
   "scripts": {
