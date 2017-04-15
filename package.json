@@ -1,13 +1,13 @@
 {
-  "name": "atomic-loader",
+  "name": "atomic-lint-loader",
   "version": "1.0.0",
-  "description": "A custom eslint loader",
+  "description": "A custom eslint loader for atomic-jolt",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4"
   },
