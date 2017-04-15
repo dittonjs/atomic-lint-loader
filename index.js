@@ -33,7 +33,6 @@ function lintIfFileChanged(filePath, emitError, emitWarning){
     if(lintResult.errorCount > 0){
       _.each(lintResult.results[0].messages, (messageObj) => {
         const message = tagMessage `${messageObj}`;
-        console.log(messageObj.severity);
         if(messageObj.severity === 2){
           emitError(message);
         } else if (messageObj === 1){

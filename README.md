@@ -2,7 +2,7 @@
 A linter for Atomic Jolt that lints files changed and integrates with the webpack build process
 
 ### Usage
-`yarn add -dev atomic-lint-loader` or `npm install --save-dev atomic-lint-loader`
+`yarn add -D atomic-lint-loader` or `npm install --save-dev atomic-lint-loader`
 
 Add atomic-lint-loader as a loader to your `.js` and `.jsx` files in your webpack config.
 
